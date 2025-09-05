@@ -49,6 +49,7 @@ const day30Temp = 29 //C
 sumOfF = day1Temp + day3Temp + day5Temp + day7Temp + day9Temp + day11Temp + day13Temp + day15Temp + day17Temp + day19Temp + day21Temp + day23Temp + day25Temp + day27Temp + day29Temp
 sumOfC = day2Temp + day4Temp + day6Temp + day8Temp + day10Temp + day12Temp +day14Temp +day16Temp + day18Temp + day20Temp +day22Temp +day24Temp + day26Temp +day28Temp +day30Temp
 tot_temperature_in_fahrenheit = ((sumOfC * 9 / 5) + (32 * 15) + sumOfF)
-tot_temperature_in_celsius = ((sumOfF - (32 * 15)* 5 / 9) + sumOfC)
+tot_temperature_in_celsius = ((sumOfF - 32 * 15) * 5 / 9) + sumOfC
 avg_temperature_in_fahrenheit = (tot_temperature_in_fahrenheit / 30)
 avg_temperature_in_celsius = (tot_temperature_in_celsius / 30)
+console.log (tot_temperature_in_celsius, tot_temperature_in_fahrenheit, avg_temperature_in_celsius, avg_temperature_in_fahrenheit)
